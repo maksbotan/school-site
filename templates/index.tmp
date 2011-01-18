@@ -1,0 +1,40 @@
+{% extends "main.tmp" %}
+{% block content %}
+<div class="content">
+    <!-- START OF jQuery-->
+    <div id="featured" >
+        <ul class="ui-tabs-nav">
+        {% for content in featured %}
+    	    <li class="ui-tabs-nav-item{% if loop.first %}  ui-tabs-selected{% endif %}" id="nav-fragment-{{ loop.index }}">
+                <a href="#fragment-{{ loop.index }}">
+                    <img src="{{ prefix }}images/image{{ loop.index }}-small.jpg" alt="" />{{ content.annot }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+
+        {% for content in featured %}
+        <div id="fragment-{{loop.index}}" class="ui-tabs-panel" style="">
+            <img src="{{prefix}}images/image{{loop.index}}.jpg" alt="" />
+            <div class="info">
+                <h2><a href="#">{{content.title}}</a></h2>
+                <p>{{content.text}}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <!-- END OF jQuery-->   
+    <div class="daily_news">
+        <h3>Новость дня</h3>
+        <p>{{notd}}</p>
+    </div>
+</div>
+<div class="content-bottom"></div>
+<!-- Main info-->
+<div class="content">
+{{ content }}
+</div>
+<div class="content-bottom"></div>
+{% endblock %}
+
+<!-- vim: ft=htmldjango
+--!>

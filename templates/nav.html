@@ -1,0 +1,26 @@
+<ul id="navigation">
+    {% for node in nodes %}
+    <li class="{% if node.name == name %}active{% elif loop.last %}last{% endif %}">
+        <a href="{% if node.name == name %}#{% else %}{{ prefix }}{{ node.name }}.htm{% endif %}">
+            <span class="menu-left"></span>
+            <span class="menu-mid">{{ node.title }}</span>
+            <span class="menu-right"></span>
+        </a>
+    {% if node.subs %}
+    <div class="sub">
+        <ul>
+        {% for sub in node.subs %}
+            <li>
+            <a href="{{ prefix }}{{ node.name }}/{{ sub.name }}.htm">{{ sub.title }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+        <div class="btm-bg"></div>
+    </div>
+    {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+
+<!-- vim: ft=htmldjango 
+-->

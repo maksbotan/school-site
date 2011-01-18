@@ -1,0 +1,15 @@
+{% extends "main.tmp" %}
+{% block content %}
+<div class="content"></div>
+<!-- Main info-->
+<div class="content">
+<ul>
+{% for link in me.subs %}
+    <li><a href="{{ prefix }}{{ path }}/{{ me.name }}/{{link.name}}.htm">{{link.title}}</a></li>
+{% endfor %}
+</div>
+<div class="content-bottom"></div>
+{% endblock %}
+
+<!-- vim: ft=htmldjango
+--!>
