@@ -1,0 +1,13 @@
+<form id="loginForm" action="https://login.dnevnik.ru/default.aspx" method="post" class="form" target="dnevnik">
+<input type="hidden" name="xss" value="328f1ead91">				
+	<h3>Вход в Дневник</h3>				
+	<p><label for="name" class="f">E-mail</label>
+	<input type="text" id="name" name="name" tabindex="1" value="" maxlength="200" class="t w2 required"></p>
+	<p><label for="pass" class="f">Пароль</label>
+	<input type="password" id="pass" name="pass" tabindex="2" value="" maxlength="50" class="t w2 required"><a href="https://login.dnevnik.ru/password.aspx" style="margin-left:5px;">Забыли?</a></p>
+	<p><input type="submit" id="login" name="login" tabindex="3" value="Войти" class="button r"></p>
+	<p><input type="checkbox" id="save" name="save" tabindex="4" value="1">
+	<label for="save">Запомнить меня</label></p>
+</form>
+
+<iframe id="dnevnik" style="width:100%; height:1024px"></iframe>
