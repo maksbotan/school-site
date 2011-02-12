@@ -1,0 +1,7 @@
+{% for post in posts %}
+<h3>{{ post.author }} &mdash; {{ post.topic }}</h3>
+<p style="color:gray;font-size:10pt;">{{ post.content }}</p>
+{% endfor %}
+
+<!-- vim: ft=htmldjango
+--!>
