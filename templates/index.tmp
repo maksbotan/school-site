@@ -2,6 +2,8 @@
 {% block content %}
 <div class="content">
     <!-- START OF jQuery-->
+    <div id="featured-wrapper">
+    <h2 style="text-align:center;color:#0275b3;font-size:16px;">КАЧЕСТВЕННОЕ ГИМНАЗИЧЕСКОЕ ОБРАЗОВАНИЕ ДЛЯ КАЖДОГО</h2>
     <div id="featured" >
         <ul class="ui-tabs-nav">
         {% for content in featured %}
@@ -22,10 +24,23 @@
         </div>
         {% endfor %}
     </div>
+    </div>
     <!-- END OF jQuery-->   
-    <div class="daily_news">
-        <h3>Новость дня</h3>
-        <p>{{notd}}</p>
+    <div class="about_block">
+        <h3>О гимназии</h3>
+        <ul>
+        {% for node in mininav %}
+            <li><a href="{{ node.link }}">{{ node.title }}</a></li>
+        {% endfor %}
+        </ul>
+        <!--
+        <ul>
+            <li><a href="#">Историческая справка</a></li>
+            <li><a href="#">Визитная карточка</a></li>
+            <li><a href="#">С нами у вас есть перспективы</a></li>
+            <li><a href="#">Контактная информация</a></li>
+            <li><a href="#">Как поступить</a></li>
+        </ul>-->
     </div>
 </div>
 <div class="content-bottom"></div>

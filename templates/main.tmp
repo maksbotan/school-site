@@ -24,11 +24,13 @@
             <td>
                 <img src="{{ prefix }}images/logo2.jpg" alt="" width="100" height="100" />
             </td>
-            <td width="400px">
-                <h4 style="color:#0275b3;"><span style=
-"font-size:12px;">МУНИЦИПАЛЬНОЕ ОБЩЕОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ</span> "КИРОВСКАЯ ГИМНАЗИЯ<br />ИМЕНИ ГЕРОЯ СОВЕТСКОГО СОЮЗА СУЛТАНА БАЙМАГАМБЕТОВА"</h4>
+            <td width="440px">
+                <h4 style="color:#0275b3;">
+                <span style="font-size:12px;">МУНИЦИПАЛЬНОЕ БЮДЖЕТНОЕ ОБЩЕОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ</span><br/>
+                &laquo;КИРОВСКАЯ ГИМНАЗИЯ<br />
+                <span style="font-size:12px;">ИМЕНИ ГЕРОЯ СОВЕТСКОГО СОЮЗА СУЛТАНА БАЙМАГАМБЕТОВА&raquo;</span></h4>
             </td>
-            <td width="460px">
+            <td width="420px">
                 <p>&nbsp;</p>
                 <p><a href="http://dnevnik.ru/"><img src="{{ prefix }}images/Dnevnik2.jpg" alt="" width="120" height="57" align="right" /></a></p>
             </td>
