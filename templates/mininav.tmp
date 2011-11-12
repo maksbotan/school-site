@@ -1,0 +1,15 @@
+{% extends "main.tmp" %}
+{% block content %}
+<div class="content">
+    <!-- START OF jQuery-->
+    <div id="featured-wrapper">
+        {{ content }}
+    </div>
+    <!-- END OF jQuery-->   
+    {% include "mininav.inc" %}
+</div>
+<div class="content-bottom"></div>
+{% endblock %}
+
+<!-- vim: ft=htmldjango
+--!>

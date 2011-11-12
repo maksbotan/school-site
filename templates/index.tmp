@@ -26,22 +26,7 @@
     </div>
     </div>
     <!-- END OF jQuery-->   
-    <div class="about_block">
-        <h3>О гимназии</h3>
-        <ul>
-        {% for node in mininav %}
-            <li><a href="{{ node.link }}">{{ node.title }}</a></li>
-        {% endfor %}
-        </ul>
-        <!--
-        <ul>
-            <li><a href="#">Историческая справка</a></li>
-            <li><a href="#">Визитная карточка</a></li>
-            <li><a href="#">С нами у вас есть перспективы</a></li>
-            <li><a href="#">Контактная информация</a></li>
-            <li><a href="#">Как поступить</a></li>
-        </ul>-->
-    </div>
+    {% include "mininav.inc" %}
 </div>
 <div class="content-bottom"></div>
 <!-- Main info-->

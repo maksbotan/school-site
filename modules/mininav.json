@@ -1,19 +1,33 @@
 [
+	{ "title": "Короткой строкой",
+	   "link": "vizitka/shortinfo.htm",
+	   "rel": "1"
+	},
 	{ "title": "Историческая справка",
-	   "link": "#"
+	   "link": "vizitka/hist.htm",
+	   "rel": "1"
 	},
 	{ "title": "Визитная карточка",
-	   "link": "#"
+	   "link": "vizitka.htm",
+	   "rel": "1"
 	},
 	{
 	   "title": "С нами у вас есть перспективы",
-	   "link": "#"
+	   "link": "vizitka/pers.htm",
+	   "rel": "1"
 	},
 	{ "title": "Контактная информация",
-	   "link": "#"
+	   "link": "vizitka/contacts.htm",
+	   "rel": "1"
 	},
 	{
 	   "title": "Как поступить",
-	   "link": "#"
+	   "link": "vizitka/enroll.htm",
+	   "rel": "1"
+	},
+	{
+	   "title": "Новости",
+	   "link": "http://schools.dnevnik.ru/school.aspx?school=10501",
+	   "rel": "0"
 	}
 ]
