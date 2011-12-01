@@ -1,5 +1,6 @@
 <ul id="navigation">
     {% for node in nodes %}
+    {% if node.visible %}
     <li class="{% if node.name == name %}active{% elif loop.last %}last{% endif %}">
         <a href="{% if node.name == name %}#{% else %}{{ prefix }}{{ node.name }}.htm{% endif %}">
             <span class="menu-left"></span>
@@ -19,6 +20,7 @@
     </div>
     {% endif %}
     </li>
+    {% endif %}
     {% endfor %}
 </ul>
 

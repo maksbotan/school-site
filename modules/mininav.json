@@ -29,5 +29,10 @@
 	   "title": "Новости",
 	   "link": "http://schools.dnevnik.ru/school.aspx?school=10501",
 	   "rel": "0"
+	},
+	{
+	   "title": "Анонс событий",
+	   "link": "#",
+	   "rel": "0"
 	}
 ]
