@@ -12,7 +12,11 @@
         <ul>
         {% for sub in node.subs %}
             <li>
+            {% if sub.link %}
+            <a href="{{ sub.sources }}">{{ sub.title }}</a>
+            {% else %}
             <a href="{{ prefix }}{{ node.name }}/{{ sub.name }}.htm">{{ sub.title }}</a>
+            {% endif %}
             </li>
         {% endfor %}
         </ul>

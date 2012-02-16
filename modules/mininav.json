@@ -27,12 +27,12 @@
 	},
 	{
 	   "title": "Новости",
-	   "link": "http://schools.dnevnik.ru/school.aspx?school=10501",
+	   "link": "vizitka/news.htm",
 	   "rel": "0"
 	},
 	{
 	   "title": "Анонс событий",
-	   "link": "#",
+	   "link": "vizitka/announce.htm",
 	   "rel": "0"
 	}
 ]
