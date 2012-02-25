@@ -22,16 +22,20 @@
     <div class="logo">
         <table>
             <td>
-                <img src="{{ prefix }}images/logo2.jpg" alt="" width="100" height="100" />
+                <a href="{{ prefix }}/index.htm">
+                    <img src="{{ prefix }}images/logo2.jpg" alt="" width="100" height="100" />
+                </a>
             </td>
             <td width="440px">
-                <h4 style="color:#0275b3;line-height:18px;">
+                <h4 style="color:#0275b3;">
                 <span style="font-size:12px;">МУНИЦИПАЛЬНОЕ БЮДЖЕТНОЕ ОБЩЕОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ</span><br/>
                 &laquo;КИРОВСКАЯ ГИМНАЗИЯ<br />
-                <span style="font-size:12px;">ИМЕНИ ГЕРОЯ СОВЕТСКОГО СОЮЗА СУЛТАНА БАЙМАГАМБЕТОВА&raquo;</span></h4>
+                <span style="font-size:12px;">ИМЕНИ ГЕРОЯ СОВЕТСКОГО СОЮЗА СУЛТАНА БАЙМАГАМБЕТОВА&raquo;</span>
+                </h4>
             </td>
             <td width="420px">
                 <p>&nbsp;</p>
+                <p><a href="http://leading-education.ru/"><img src="{{ prefix }}images/leading_education.png" align="right" /></a></p>
                 <p><a href="http://dnevnik.ru/"><img src="{{ prefix }}images/Dnevnik2.jpg" alt="" width="120" height="57" align="right" /></a></p>
             </td>
         </table>

@@ -28,11 +28,11 @@
 	{
 	   "title": "Новости",
 	   "link": "vizitka/news.htm",
-	   "rel": "0"
+	   "rel": "1"
 	},
 	{
-	   "title": "Анонс событий",
+	   "title": "Объявления",
 	   "link": "vizitka/announce.htm",
-	   "rel": "0"
+	   "rel": "1"
 	}
 ]
